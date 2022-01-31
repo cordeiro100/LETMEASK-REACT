@@ -1,0 +1,100 @@
+#principal {
+    display: flex;
+    height: 100vh;
+}
+
+aside {
+    flex: 7;
+    background:#835afd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+strong {
+    font-size: 50px;
+    color: #FFF;
+}
+
+p {
+    color: #a8a8b3;
+    font-size: 30px;
+}
+
+
+main {
+    flex: 8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.botao-google {
+    display: flex;
+    border: 1px solid;
+    border-radius: 8px;
+    background: #ea4335;
+    align-items: center;
+    color: #FFF;
+    padding: 12px;
+    width: 300px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
+.separator {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.botao-google:hover {
+    filter: brightness(0.9);
+    transition: 0.2s;
+
+}
+
+.foto-google {
+    margin: 0 20px;
+}
+
+
+input {
+    width: 273px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid;
+    margin-top: 25px;
+
+}
+
+.botao-joinroom {
+    
+    border: 1px solid;
+    border-radius: 8px;
+    background: #835afd;
+    
+   
+    color: #FFF;
+    padding: 15px;
+    width: 305px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.botao-joinroom:hover {
+    filter: brightness(0.9);
+    transition: 0.2s;
+}
+
+h1 {
+    font-size: 27px;
+    text-align: center;
+}
+
+
+.cliqueaqui {
+    font-size: 14px;
+}
